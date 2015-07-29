@@ -1,0 +1,86 @@
+fileFormatVersion: 2
+guid: 6acd35b3faa7694428c57e973f999c5f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: b_Light
+    100004: b_LightArm
+    100006: b_Root
+    100008: b_RootAnimated
+    100010: b_RootOffset
+    100012: b_SawArm
+    100014: b_SawBlade
+    100016: b_SawShield
+    100018: Omni001
+    100020: Omni002
+    100022: SK_CH_MiningBot
+    400000: //RootNode
+    400002: b_Light
+    400004: b_LightArm
+    400006: b_Root
+    400008: b_RootAnimated
+    400010: b_RootOffset
+    400012: b_SawArm
+    400014: b_SawBlade
+    400016: b_SawShield
+    400018: Omni001
+    400020: Omni002
+    400022: SK_CH_MiningBot
+    4300000: SK_CH_MiningBot
+    9500000: //RootNode
+    13700000: SK_CH_MiningBot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

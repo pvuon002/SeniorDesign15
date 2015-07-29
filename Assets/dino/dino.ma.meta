@@ -1,0 +1,2169 @@
+fileFormatVersion: 2
+guid: 5c37b8a2072fffc4a9bca90c766b117e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Control_ROOT
+    100002: //RootNode
+    100004: Eye_Control
+    100006: EyeControl_Offset
+    100008: Global_Control
+    100010: Head
+    100012: Head_Control
+    100014: Head_Offset
+    100016: HeadFlap
+    100018: HeadRoot
+    100020: Hips_Control
+    100022: Jaw_Tip
+    100024: JawControl_Offset
+    100026: JawFlap
+    100028: JawRoot
+    100030: L_ArmCollar
+    100032: L_ArmElbow
+    100034: L_ArmShoulder
+    100036: L_ArmUpperTwist
+    100038: L_ArmWrist
+    100040: L_ArmWrist_Offset
+    100042: L_Ball_IK
+    100044: L_BallPivotGrp
+    100046: L_BallRollGrp
+    100048: L_BallRollGrp_Offset
+    100050: L_Brow_J
+    100052: L_Eye_Joint
+    100054: L_EyeRoot
+    100056: L_HeelPivotGrp
+    100058: L_InsideToe
+    100060: L_InsideToe_Tip
+    100062: L_Leg_IK
+    100064: L_LegAnkle
+    100066: L_LegBall
+    100068: L_LegFoot
+    100070: L_LegHip
+    100072: L_LegKnee
+    100074: L_LegToeRoot
+    100076: L_LegUpperTwist
+    100078: L_LowerEyeLid
+    100080: L_LowerEyeLid_Tip
+    100082: L_MiddleToe
+    100084: L_MiddleToe_Tip
+    100086: L_Nostril_Control
+    100088: L_Nostril_Control_offset
+    100090: L_Nostril_J
+    100092: L_OutsideToe
+    100094: L_OutsideToe_Tip
+    100096: L_Toe_IK
+    100098: L_Toe_IK 1
+    100100: L_ToeFKGrp
+    100102: L_ToeFKGrp_Offset
+    100104: L_ToePivotGrp_Offset
+    100106: L_ToeRollGrp
+    100108: L_UpperEye_Tip
+    100110: L_UpperEyeLid
+    100112: LArm_IK
+    100114: LBrow_Control
+    100116: LBrow_Control_offset
+    100118: LBrow_innerPivot
+    100120: LBrow_outerPivot
+    100122: LElbow_Control
+    100124: LEye
+    100126: LEye 1
+    100128: LEye_LookAt
+    100130: LEyeGrp
+    100132: LFoot_Control
+    100134: LFoot_FloorContact
+    100136: LFoot_FloorContact_offset
+    100138: LFoot_Offset
+    100140: LKnee_PV
+    100142: LKneePV_Offset
+    100144: LowerJaw_Control
+    100146: LWrist_Control
+    100148: MasterSpine0
+    100150: MasterSpine1
+    100152: MasterSpine2
+    100154: MasterSpine3
+    100156: MESH_ROOT
+    100158: Neck_Control
+    100160: NeckControl_Offset
+    100162: Pelvis1
+    100164: Pelvis2
+    100166: R_ArmCollar
+    100168: R_ArmElbow
+    100170: R_ArmShoulder
+    100172: R_ArmUpperTwist
+    100174: R_ArmWrist
+    100176: R_ArmWrist_Offset
+    100178: R_Ball_IK
+    100180: R_BallPivotGrp
+    100182: R_BallRollGrp
+    100184: R_BallRollGrp_Offset
+    100186: R_Brow_J
+    100188: R_Eye_Joint
+    100190: R_EyeRoot
+    100192: R_HeelPivotGrp
+    100194: R_InsideToe
+    100196: R_InsideToe_Tip
+    100198: R_Leg_IK
+    100200: R_LegAnkle
+    100202: R_LegBall
+    100204: R_LegFoot
+    100206: R_LegHip
+    100208: R_LegKnee
+    100210: R_LegToeRoot
+    100212: R_LegUpperTwist
+    100214: R_LowerEyeLid
+    100216: R_LowerEyeLid_Tip
+    100218: R_MiddleToe
+    100220: R_MiddleToe_Tip
+    100222: R_Nostril_Control
+    100224: R_Nostril_Control_offset
+    100226: R_Nostril_J
+    100228: R_OutsideToe
+    100230: R_OutsideToe_Tip
+    100232: R_ToeFKGrp
+    100234: R_ToeFKGrp_Offset
+    100236: R_ToePivotGrp_Offset
+    100238: R_ToeRollGrp
+    100240: R_UpperEye_Tip
+    100242: R_UpperEyeLid
+    100244: RArm_IK
+    100246: RBrow_Control
+    100248: RBrow_Control_offset
+    100250: RBrow_innerPivot
+    100252: RBrow_outerPivot
+    100254: RElbow_Control
+    100256: REye
+    100258: REye 1
+    100260: REye_LookAt
+    100262: REyeGrp
+    100264: RFoot_Control
+    100266: RFoot_FloorContact
+    100268: RFoot_FloorContact_offset
+    100270: RFoot_Offset
+    100272: RKnee_PV
+    100274: RKneePV_Offset
+    100276: Root_Control
+    100278: Root_Control_Offset
+    100280: RWrist_Control
+    100282: SKELETAL_ROOT
+    100284: SKELETON_ROOT
+    100286: Spine1
+    100288: Spine2
+    100290: Spine3
+    100292: Spine4
+    100294: Spine5
+    100296: Tail1
+    100298: Tail1_Offset
+    100300: Tail2
+    100302: Tail3
+    100304: Tail4
+    100306: Tail4_Offset
+    100308: Tail4_Offset 1
+    100310: Tail_Control
+    100312: Tail_IK
+    100314: TailCurve
+    100316: Teeth
+    100318: ToonRex
+    100320: UNTOUCHABLES
+    100322: UpperJaw_Control
+    100324: World_LOC
+    400000: Control_ROOT
+    400002: //RootNode
+    400004: Eye_Control
+    400006: EyeControl_Offset
+    400008: Global_Control
+    400010: Head
+    400012: Head_Control
+    400014: Head_Offset
+    400016: HeadFlap
+    400018: HeadRoot
+    400020: Hips_Control
+    400022: Jaw_Tip
+    400024: JawControl_Offset
+    400026: JawFlap
+    400028: JawRoot
+    400030: L_ArmCollar
+    400032: L_ArmElbow
+    400034: L_ArmShoulder
+    400036: L_ArmUpperTwist
+    400038: L_ArmWrist
+    400040: L_ArmWrist_Offset
+    400042: L_Ball_IK
+    400044: L_BallPivotGrp
+    400046: L_BallRollGrp
+    400048: L_BallRollGrp_Offset
+    400050: L_Brow_J
+    400052: L_Eye_Joint
+    400054: L_EyeRoot
+    400056: L_HeelPivotGrp
+    400058: L_InsideToe
+    400060: L_InsideToe_Tip
+    400062: L_Leg_IK
+    400064: L_LegAnkle
+    400066: L_LegBall
+    400068: L_LegFoot
+    400070: L_LegHip
+    400072: L_LegKnee
+    400074: L_LegToeRoot
+    400076: L_LegUpperTwist
+    400078: L_LowerEyeLid
+    400080: L_LowerEyeLid_Tip
+    400082: L_MiddleToe
+    400084: L_MiddleToe_Tip
+    400086: L_Nostril_Control
+    400088: L_Nostril_Control_offset
+    400090: L_Nostril_J
+    400092: L_OutsideToe
+    400094: L_OutsideToe_Tip
+    400096: L_Toe_IK
+    400098: L_Toe_IK 1
+    400100: L_ToeFKGrp
+    400102: L_ToeFKGrp_Offset
+    400104: L_ToePivotGrp_Offset
+    400106: L_ToeRollGrp
+    400108: L_UpperEye_Tip
+    400110: L_UpperEyeLid
+    400112: LArm_IK
+    400114: LBrow_Control
+    400116: LBrow_Control_offset
+    400118: LBrow_innerPivot
+    400120: LBrow_outerPivot
+    400122: LElbow_Control
+    400124: LEye
+    400126: LEye 1
+    400128: LEye_LookAt
+    400130: LEyeGrp
+    400132: LFoot_Control
+    400134: LFoot_FloorContact
+    400136: LFoot_FloorContact_offset
+    400138: LFoot_Offset
+    400140: LKnee_PV
+    400142: LKneePV_Offset
+    400144: LowerJaw_Control
+    400146: LWrist_Control
+    400148: MasterSpine0
+    400150: MasterSpine1
+    400152: MasterSpine2
+    400154: MasterSpine3
+    400156: MESH_ROOT
+    400158: Neck_Control
+    400160: NeckControl_Offset
+    400162: Pelvis1
+    400164: Pelvis2
+    400166: R_ArmCollar
+    400168: R_ArmElbow
+    400170: R_ArmShoulder
+    400172: R_ArmUpperTwist
+    400174: R_ArmWrist
+    400176: R_ArmWrist_Offset
+    400178: R_Ball_IK
+    400180: R_BallPivotGrp
+    400182: R_BallRollGrp
+    400184: R_BallRollGrp_Offset
+    400186: R_Brow_J
+    400188: R_Eye_Joint
+    400190: R_EyeRoot
+    400192: R_HeelPivotGrp
+    400194: R_InsideToe
+    400196: R_InsideToe_Tip
+    400198: R_Leg_IK
+    400200: R_LegAnkle
+    400202: R_LegBall
+    400204: R_LegFoot
+    400206: R_LegHip
+    400208: R_LegKnee
+    400210: R_LegToeRoot
+    400212: R_LegUpperTwist
+    400214: R_LowerEyeLid
+    400216: R_LowerEyeLid_Tip
+    400218: R_MiddleToe
+    400220: R_MiddleToe_Tip
+    400222: R_Nostril_Control
+    400224: R_Nostril_Control_offset
+    400226: R_Nostril_J
+    400228: R_OutsideToe
+    400230: R_OutsideToe_Tip
+    400232: R_ToeFKGrp
+    400234: R_ToeFKGrp_Offset
+    400236: R_ToePivotGrp_Offset
+    400238: R_ToeRollGrp
+    400240: R_UpperEye_Tip
+    400242: R_UpperEyeLid
+    400244: RArm_IK
+    400246: RBrow_Control
+    400248: RBrow_Control_offset
+    400250: RBrow_innerPivot
+    400252: RBrow_outerPivot
+    400254: RElbow_Control
+    400256: REye
+    400258: REye 1
+    400260: REye_LookAt
+    400262: REyeGrp
+    400264: RFoot_Control
+    400266: RFoot_FloorContact
+    400268: RFoot_FloorContact_offset
+    400270: RFoot_Offset
+    400272: RKnee_PV
+    400274: RKneePV_Offset
+    400276: Root_Control
+    400278: Root_Control_Offset
+    400280: RWrist_Control
+    400282: SKELETAL_ROOT
+    400284: SKELETON_ROOT
+    400286: Spine1
+    400288: Spine2
+    400290: Spine3
+    400292: Spine4
+    400294: Spine5
+    400296: Tail1
+    400298: Tail1_Offset
+    400300: Tail2
+    400302: Tail3
+    400304: Tail4
+    400306: Tail4_Offset
+    400308: Tail4_Offset 1
+    400310: Tail_Control
+    400312: Tail_IK
+    400314: TailCurve
+    400316: Teeth
+    400318: ToonRex
+    400320: UNTOUCHABLES
+    400322: UpperJaw_Control
+    400324: World_LOC
+    2300000: LEye 1
+    2300002: REye 1
+    3300000: LEye 1
+    3300002: REye 1
+    4300000: ToonRex
+    4300002: REye
+    4300004: LEye
+    7400000: Idle
+    7400002: Forward
+    7400004: Backward
+    7400006: Left
+    7400008: Right
+    9500000: //RootNode
+    13700000: ToonRex
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Control_ROOT
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/LEye_LookAt
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/REye_LookAt
+        weight: 1
+      - path: Control_ROOT/Global_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset/LFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp/L_Toe_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset/LKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset/RFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp/L_Toe_IK
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset/RKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Hips_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset/LowerJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset/L_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot/LBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset/R_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot/RBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset/Tail4_Offset
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset/Tail_Control
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Head/LEye
+        weight: 1
+      - path: Head/LEye/LEye 1
+        weight: 1
+      - path: Head/LEye/LEyeGrp
+        weight: 1
+      - path: Head/REye
+        weight: 1
+      - path: Head/REye/REye 1
+        weight: 1
+      - path: Head/REye/REyeGrp
+        weight: 1
+      - path: Head/Teeth
+        weight: 1
+      - path: MESH_ROOT
+        weight: 1
+      - path: MESH_ROOT/ToonRex
+        weight: 1
+      - path: SKELETAL_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe/L_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe/L_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe/L_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe/R_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe/R_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe/R_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow/L_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow/R_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid/L_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid/L_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid/R_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid/R_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap/Jaw_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: UNTOUCHABLES
+        weight: 1
+      - path: UNTOUCHABLES/Tail_IK
+        weight: 1
+      - path: UNTOUCHABLES/TailCurve
+        weight: 1
+      - path: UNTOUCHABLES/World_LOC
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Forward
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Control_ROOT
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/LEye_LookAt
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/REye_LookAt
+        weight: 1
+      - path: Control_ROOT/Global_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset/LFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp/L_Toe_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset/LKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset/RFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp/L_Toe_IK
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset/RKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Hips_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset/LowerJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset/L_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot/LBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset/R_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot/RBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset/Tail4_Offset
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset/Tail_Control
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Head/LEye
+        weight: 1
+      - path: Head/LEye/LEye 1
+        weight: 1
+      - path: Head/LEye/LEyeGrp
+        weight: 1
+      - path: Head/REye
+        weight: 1
+      - path: Head/REye/REye 1
+        weight: 1
+      - path: Head/REye/REyeGrp
+        weight: 1
+      - path: Head/Teeth
+        weight: 1
+      - path: MESH_ROOT
+        weight: 1
+      - path: MESH_ROOT/ToonRex
+        weight: 1
+      - path: SKELETAL_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe/L_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe/L_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe/L_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe/R_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe/R_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe/R_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow/L_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow/R_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid/L_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid/L_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid/R_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid/R_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap/Jaw_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: UNTOUCHABLES
+        weight: 1
+      - path: UNTOUCHABLES/Tail_IK
+        weight: 1
+      - path: UNTOUCHABLES/TailCurve
+        weight: 1
+      - path: UNTOUCHABLES/World_LOC
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Backward
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Control_ROOT
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/LEye_LookAt
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/REye_LookAt
+        weight: 1
+      - path: Control_ROOT/Global_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset/LFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp/L_Toe_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset/LKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset/RFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp/L_Toe_IK
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset/RKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Hips_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset/LowerJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset/L_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot/LBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset/R_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot/RBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset/Tail4_Offset
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset/Tail_Control
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Head/LEye
+        weight: 1
+      - path: Head/LEye/LEye 1
+        weight: 1
+      - path: Head/LEye/LEyeGrp
+        weight: 1
+      - path: Head/REye
+        weight: 1
+      - path: Head/REye/REye 1
+        weight: 1
+      - path: Head/REye/REyeGrp
+        weight: 1
+      - path: Head/Teeth
+        weight: 1
+      - path: MESH_ROOT
+        weight: 1
+      - path: MESH_ROOT/ToonRex
+        weight: 1
+      - path: SKELETAL_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe/L_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe/L_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe/L_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe/R_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe/R_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe/R_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow/L_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow/R_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid/L_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid/L_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid/R_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid/R_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap/Jaw_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: UNTOUCHABLES
+        weight: 1
+      - path: UNTOUCHABLES/Tail_IK
+        weight: 1
+      - path: UNTOUCHABLES/TailCurve
+        weight: 1
+      - path: UNTOUCHABLES/World_LOC
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Left
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Control_ROOT
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/LEye_LookAt
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/REye_LookAt
+        weight: 1
+      - path: Control_ROOT/Global_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset/LFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp/L_Toe_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset/LKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset/RFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp/L_Toe_IK
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset/RKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Hips_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset/LowerJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset/L_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot/LBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset/R_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot/RBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset/Tail4_Offset
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset/Tail_Control
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Head/LEye
+        weight: 1
+      - path: Head/LEye/LEye 1
+        weight: 1
+      - path: Head/LEye/LEyeGrp
+        weight: 1
+      - path: Head/REye
+        weight: 1
+      - path: Head/REye/REye 1
+        weight: 1
+      - path: Head/REye/REyeGrp
+        weight: 1
+      - path: Head/Teeth
+        weight: 1
+      - path: MESH_ROOT
+        weight: 1
+      - path: MESH_ROOT/ToonRex
+        weight: 1
+      - path: SKELETAL_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe/L_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe/L_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe/L_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe/R_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe/R_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe/R_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow/L_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow/R_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid/L_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid/L_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid/R_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid/R_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap/Jaw_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: UNTOUCHABLES
+        weight: 1
+      - path: UNTOUCHABLES/Tail_IK
+        weight: 1
+      - path: UNTOUCHABLES/TailCurve
+        weight: 1
+      - path: UNTOUCHABLES/World_LOC
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Right
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Control_ROOT
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/LEye_LookAt
+        weight: 1
+      - path: Control_ROOT/EyeControl_Offset/Eye_Control/REye_LookAt
+        weight: 1
+      - path: Control_ROOT/Global_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_FloorContact_offset/LFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_BallRollGrp_Offset/L_BallRollGrp/L_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/LFoot_Offset/LFoot_Control/L_HeelPivotGrp/L_BallPivotGrp/L_ToePivotGrp_Offset/L_ToeRollGrp/L_ToeFKGrp_Offset/L_ToeFKGrp/L_Toe_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/LKneePV_Offset/LKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_FloorContact_offset/RFoot_FloorContact
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Ball_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_BallRollGrp_Offset/R_BallRollGrp/R_Leg_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp
+        weight: 1
+      - path: Control_ROOT/Global_Control/RFoot_Offset/RFoot_Control/R_HeelPivotGrp/R_BallPivotGrp/R_ToePivotGrp_Offset/R_ToeRollGrp/R_ToeFKGrp_Offset/R_ToeFKGrp/L_Toe_IK
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/RKneePV_Offset/RKnee_PV
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Hips_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/L_ArmWrist_Offset/LWrist_Control/LElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/JawControl_Offset/LowerJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/L_Nostril_Control_offset/L_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/LBrow_Control_offset/LBrow_outerPivot/LBrow_innerPivot/LBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/R_Nostril_Control_offset/R_Nostril_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/MasterSpine0/MasterSpine1/MasterSpine2/MasterSpine3/NeckControl_Offset/Neck_Control/Head_Offset/Head_Control/UpperJaw_Control/RBrow_Control_offset/RBrow_outerPivot/RBrow_innerPivot/RBrow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RArm_IK
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/R_ArmWrist_Offset/RWrist_Control/RElbow_Control
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail1_Offset/Tail4_Offset
+          1
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset
+        weight: 1
+      - path: Control_ROOT/Global_Control/Root_Control_Offset/Root_Control/Tail4_Offset/Tail_Control
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Head/LEye
+        weight: 1
+      - path: Head/LEye/LEye 1
+        weight: 1
+      - path: Head/LEye/LEyeGrp
+        weight: 1
+      - path: Head/REye
+        weight: 1
+      - path: Head/REye/REye 1
+        weight: 1
+      - path: Head/REye/REyeGrp
+        weight: 1
+      - path: Head/Teeth
+        weight: 1
+      - path: MESH_ROOT
+        weight: 1
+      - path: MESH_ROOT/ToonRex
+        weight: 1
+      - path: SKELETAL_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_InsideToe/L_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_MiddleToe/L_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegKnee/L_LegAnkle/L_LegFoot/L_LegBall/L_LegToeRoot/L_OutsideToe/L_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/L_LegHip/L_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_InsideToe/R_InsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_MiddleToe/R_MiddleToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegKnee/R_LegAnkle/R_LegFoot/R_LegBall/R_LegToeRoot/R_OutsideToe/R_OutsideToe_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Pelvis1/Pelvis2/R_LegHip/R_LegUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmElbow/L_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/L_ArmCollar/L_ArmShoulder/L_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmElbow/R_ArmWrist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/R_ArmCollar/R_ArmShoulder/R_ArmUpperTwist
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_LowerEyeLid/L_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_EyeRoot/L_UpperEyeLid/L_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/L_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Brow_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_Eye_Joint
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_LowerEyeLid/R_LowerEyeLid_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_EyeRoot/R_UpperEyeLid/R_UpperEye_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/HeadFlap/R_Nostril_J
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Spine1/Spine2/Spine3/Spine4/Spine5/HeadRoot/JawRoot/JawFlap/Jaw_Tip
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3
+        weight: 1
+      - path: SKELETAL_ROOT/SKELETON_ROOT/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: UNTOUCHABLES
+        weight: 1
+      - path: UNTOUCHABLES/Tail_IK
+        weight: 1
+      - path: UNTOUCHABLES/TailCurve
+        weight: 1
+      - path: UNTOUCHABLES/World_LOC
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
